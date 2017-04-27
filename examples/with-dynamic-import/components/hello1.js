@@ -1,3 +1,5 @@
-export default () => (
-  <p>Hello World 1 (imported dynamiclly) </p>
+import React from 'react'
+
+export default ({name}) => (
+  <p>Hello {name} (imported dynamiclly) </p>
 )
